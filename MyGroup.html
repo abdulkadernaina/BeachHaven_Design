@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="css/MyGroup.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+    <title>CherApp</title>
+  </head>
+  <body>
+    <!-- top navbar -->
+    <section>
+      <div class="navbar top-section border">
+        <a class="logo_link d-flex"
+          ><img class="logo-img" src="images/Group/logo.jpg" />
+        </a>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link top-navtxt" href="#">Listing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link top-navtxt" href="#">Community</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link top-navtxt" href="#">Agents</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><button type="button" class="btn btn-primary pl-5 pr-5 pb-2">
+                Get Loan
+              </button></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="images/Group/user.png" /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- top nav bar ends
+
+
+    nav in left most section -->
+    <section class="d-flex">
+      <nav class="sidebar d-none d-md-block p-0 nav-column">
+        <ul class="p-0 mt-1">
+          <li class="side_li feed">
+            <a class="side-nav sidenav-txt" href="#">
+              <i class="bi bi-columns-gap"></i>
+              Feed</a
+            >
+          </li>
+
+          <li class="side_li message">
+            <a class="side-nav sidenav-txt" href="#">
+              <i class="bi bi-chat-dots"></i>
+              Message</a
+            >
+          </li>
+          <li class="side_li network">
+            <a class="side-nav sidenav-txt" href="#">
+              <i class="bi bi-people"></i>
+              Network</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="col p-0 m-0">
+        <div>
+          <h1 class="ps-5 m-3">My Network</h1>
+        </div>
+        <div>
+          <ul class="nav border-bottom px-3">
+            <li class="nav-item">
+              <a class="nav-link fw-bold fs-5 text-dark" href="#"
+                >Friend Requests</a
+              >
+            </li>
+            <li class="nav-item ps-5">
+              <a class="nav-link ps-5 fs-5 text-dark" href="#">My Group</a>
+            </li>
+            <li class="nav-item ps-5">
+              <a class="nav-link ps-5 fs-5 text-dark" href="#">My Friends</a>
+            </li>
+            <li class="nav-item ps-5">
+              <a class="nav-link ps-5 fs-5 text-dark">Suggested Friends</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="ml-5">
+          <h5 class="card-top m-3">My Groups</h5>
+          <div class="row m-0">
+            <div class="col-sm-5 mb-4 mr-4">
+              <div class="card">
+                <div class="card-body pb-1">
+                  <div class="head d-flex p-1 align-items-center">
+                    <img class="p-2" src="images/Group/group1.png" alt="" />
+                    <h5 class="card-title m-0">Emily, Big</h5>
+                  </div>
+                  <p class="mb-0 mt-1">Shared Files</p>
+                  <div>
+                    <img
+                      class="group_images"
+                      src="images/Group/Group1_1.png"
+                      alt=""
+                    />
+                    <img
+                      class="group_images"
+                      src="images/Group/Group1_2.png"
+                      alt=""
+                    />
+                    <img
+                      class="group_images"
+                      src="images/Group/Group1_3.png"
+                      alt=""
+                    />
+                    <img
+                      class="group_images"
+                      src="images/Group/Group1_4.png"
+                      alt=""
+                    />
+                    <img
+                      class="group_images"
+                      src="images/Group/Group1_5.png"
+                      alt=""
+                    />
+                    <img
+                      class="group_images"
+                      src="images/Group/Group1_6.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="text-center m-3">
+                    <a href="#" class="btn btn-primary">Message</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-5 mb-4">
+              <div class="card">
+                <div class="card-body pb-1">
+                  <div class="head d-flex p-1 align-items-center">
+                    <img class="mr-3" src="images/Group/group2.png" alt="" />
+                    <h5 class="card-title m-0">Emily, Justin, Ash</h5>
+                  </div>
+                  <p class="mb-0 mt-1">Shared Files</p>
+                  <div>
+                    <img
+                      class="group_images"
+                      src="images/Group/Group2_1.png"
+                      alt=""
+                    />
+                    <img
+                      class="group_images"
+                      src="images/Group/Group2_2.png"
+                      alt=""
+                    />
+                    <img
+                      class="group_images"
+                      src="images/Group/Group2_3.png"
+                      alt=""
+                    />
+                    <img
+                      class="group_images"
+                      src="images/Group/Group2_4.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="text-center m-3">
+                    <a href="#" class="btn btn-primary">Message</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-5 mb-4 mr-4">
+              <div class="card">
+                <div class="card-body pb-1">
+                  <div class="head d-flex p-1 align-items-center">
+                    <img class="mr-3" src="images/Group/group3.png" alt="" />
+                    <h5 class="card-title m-0">AA house</h5>
+                  </div>
+                  <p class="mb-0 mt-1">Shared Files</p>
+                  <div>
+                    <img
+                      class="group_images"
+                      src="images/Group/Group3_1.png"
+                      alt=""
+                    />
+                    <img
+                      class="group _images"
+                      src="images/Group/Group3_2.png"
+                      alt=""
+                    />
+                    <img
+                      class="group_images"
+                      src="images/Group/Group3_3.png"
+                      alt=""
+                    />
+                    <img
+                      class="group_images"
+                      src="images/Group/Group3_4.png"
+                      alt=""
+                    />
+                    <img
+                      class="group_images"
+                      src="images/Group/Group3_5.png"
+                      alt=""
+                    />
+                    <img
+                      class="group_images"
+                      src="images/Group/Group3_6.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="text-center m-3">
+                    <a href="#" class="btn btn-primary">Message</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-5 mb-4">
+              <div class="card">
+                <div class="card-body pb-1">
+                  <div class="head d-flex p-1 align-items-center">
+                    <img class="mr-3" src="images/Group/group4.png" alt="" />
+                    <h5 class="card-title m-0">BB house</h5>
+                  </div>
+                  <p class="mb-0 mt-1">Shared Files</p>
+                  <div>
+                    <img
+                      class="group_images"
+                      src="images/Group/Group4_1.png"
+                      alt=""
+                    />
+                    <img
+                      class="group_images"
+                      src="images/Group/Group4_2.png"
+                      alt=""
+                    />
+                    <img
+                      class="group_images"
+                      src="images/Group/Group4_3.png"
+                      alt=""
+                    />
+                    <img
+                      class="group_images"
+                      src="images/Group/Group4_4.png"
+                      alt=""
+                    />
+                    <img
+                      class="group_images"
+                      src="images/Group/Group4_5.png"
+                      alt=""
+                    />
+                    <img
+                      class="group_images"
+                      src="images/Group/Group4_6.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="text-center m-3">
+                    <a href="#" class="btn btn-primary">Message</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

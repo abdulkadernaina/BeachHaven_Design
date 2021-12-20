@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="css/message.css" />
+    <link rel="stylesheet" href="css/friendRequest.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- top navbar -->
+
+    <section class="p-0 m-0">
+      <div class="navbar top-section border p-0 m-0">
+        <a class="logo_link d-flex"
+          ><img
+            class="freind-logo-img ml-5"
+            src="images/common_images/cher_logo.png"
+          />
+        </a>
+        <ul class="nav p-0 m-0 d-flex align-items-center">
+          <li class="nav-item p-0 m-0">
+            <a class="nav-link top-navtxt ml-3" href="#">Listing</a>
+          </li>
+          <li class="nav-item p-0 m-0">
+            <a class="nav-link top-navtxt f-active ml-3" href="#">Community </a>
+          </li>
+          <li class="nav-item p-0 m-0">
+            <a class="nav-link top-navtxt ml-3" href="#">Agents</a>
+          </li>
+
+          <li class="nav-item p-0 m-0">
+            <a class="nav-link ml-3" href="#"
+              ><button type="button" class="btn btn-primary pl-5 pr-5 pb-2">
+                Get Loan
+              </button></a
+            >
+          </li>
+          <li class="nav-item p-0 m-0">
+            <a class="nav-link ml-2" href="#"
+              ><img src="images/common_images/profile_image.png"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- top nav bar ends-->
+
+    <!--nav in left most section -->
+    <section class="row m-0">
+      <nav class="sidebar d-none d-md-block p-0 nav-column">
+        <ul class="p-0 mt-1">
+          <li class="side_li feed">
+            <a class="side-nav sidenav-txt" href="#">
+              <i class="bi bi-columns-gap"></i>
+              Feed</a
+            >
+          </li>
+
+          <li class="side_li message">
+            <a class="side-nav sidenav-txt" href="#">
+              <i class="bi bi-chat-dots"></i>
+              Message</a
+            >
+          </li>
+          <li class="side_li network">
+            <a class="side-nav sidenav-txt" href="#">
+              <i class="bi bi-people"></i>
+              Network</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- left navbar end-->
+      <!-- second navbar start -->
+      <div>
+        <div>
+          <h1 class="ps-5 m-3">My Network</h1>
+        </div>
+        <div>
+          <ul class="nav border-bottom m-3">
+            <li class="nav-item">
+              <a class="nav-link fw-bold fs-5 text-dark" href="#"
+                >Invite Requests</a
+              >
+            </li>
+            <li class="nav-item ps-5">
+              <a class="nav-link ps-5 fs-5 text-dark" href="#">My Homebuyers</a>
+            </li>
+            <li class="nav-item ps-5">
+              <a class="nav-link ps-5 fs-5 text-dark" href="#"
+                >Suggested Homebuyers</a
+              >
+            </li>
+            <li class="nav-item ps-5">
+              <a class="nav-link ps-5 fs-5 text-dark" href="#">My Agents</a>
+            </li>
+
+            <li class="nav-item ps-5">
+              <a class="nav-link ps-5 fs-5 text-dark" href="#">My Groups</a>
+            </li>
+          </ul>
+        </div>
+        <!--second navbar end-->
+
+        <!--Friends you might want to know start-->
+        <h3 class="m-3">Friends you might want to know</h3>
+        <div class="row m-0 pl-3">
+          <div class="card col p-0 mr-4">
+            <img
+              src="images/friendrequests/Ajay Lee.png"
+              class="card-img-top img-fluid"
+              alt="..."
+            />
+            <div
+              class="
+                card-img-overlay
+                d-flex
+                justify-content-end
+                algin-items-start
+                p-1
+              "
+            >
+              <a class="p-0 text-dark" href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-x-circle-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"
+                  /></svg
+              ></a>
+            </div>
+
+            <div class="card-body text-center">
+              <h5 class="card-title">Ajay Lee</h5>
+              <p class="card-text">Actively looking for a new home</p>
+              <div class="group d-flex">
+                <img
+                  src="images/friendrequests/Group.png"
+                  class="icon"
+                  alt="..."
+                />
+                <p>1 same saved house</p>
+              </div>
+              <div class="group d-flex">
+                <img
+                  src="images/friendrequests/group2.png"
+                  class="icon"
+                  alt="..."
+                />
+                <p>2 mutual friends</p>
+              </div>
+              <a href="#" class="select btn btn-primary">Add</a>
+            </div>
+          </div>
+
+          <div class="card col p-0 mr-4">
+            <img
+              src="images/friendrequests/Wilson Fernsby.png"
+              class="card-img-top img-fluid"
+              alt="..."
+            />
+            <div
+              class="
+                card-img-overlay
+                d-flex
+                justify-content-end
+                algin-items-start
+                p-1
+              "
+            >
+              <a class="p-0 text-dark" href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-x-circle-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"
+                  /></svg
+              ></a>
+            </div>
+
+            <div class="card-body text-center">
+              <h5 class="card-title">William Relish</h5>
+              <p class="card-text">Actively looking for a new home</p>
+              <div class="group d-flex">
+                <img
+                  src="images/friendrequests/Group.png"
+                  class="icon"
+                  alt="..."
+                />
+                <p>1 same saved house</p>
+              </div>
+              <div class="group d-flex">
+                <img
+                  src="images/friendrequests/group2.png"
+                  class="icon"
+                  alt="..."
+                />
+                <p>2 mutual friends</p>
+              </div>
+              <a href="#" class="select btn btn-primary">Add</a>
+            </div>
+          </div>
+
+          <div class="card col p-0 mr-4">
+            <img
+              src="images/friendrequests/Evelyn Dankworth.png"
+              class="card-img-top img-fluid"
+              alt="..."
+            />
+            <div
+              class="
+                card-img-overlay
+                d-flex
+                justify-content-end
+                algin-items-start
+                p-1
+              "
+            >
+              <a class="p-0 text-dark" href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-x-circle-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"
+                  /></svg
+              ></a>
+            </div>
+
+            <div class="card-body text-center">
+              <h5 class="card-title">Evelyn Dankworth</h5>
+              <p class="card-text">Actively looking for a new home</p>
+              <div class="group d-flex">
+                <img
+                  src="images/friendrequests/Group.png"
+                  class="icon"
+                  alt="..."
+                />
+                <p>1 same saved house</p>
+              </div>
+              <div class="group d-flex">
+                <img
+                  src="images/friendrequests/group2.png"
+                  class="icon"
+                  alt="..."
+                />
+                <p>2 mutual friends</p>
+              </div>
+              <a href="#" class="select btn btn-primary">Add</a>
+            </div>
+          </div>
+
+          <div class="card col p-0 mr-4">
+            <img
+              src="images/friendrequests/Harper Harris.png"
+              class="card-img-top img-fluid"
+              alt="..."
+            />
+            <div
+              class="
+                card-img-overlay
+                d-flex
+                justify-content-end
+                algin-items-start
+                p-1
+              "
+            >
+              <a class="p-0 text-dark" href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-x-circle-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"
+                  /></svg
+              ></a>
+            </div>
+
+            <div class="card-body text-center">
+              <h5 class="card-title">Harper Harris</h5>
+              <p class="card-text">Actively looking for a new home</p>
+              <div class="group d-flex">
+                <img
+                  src="images/friendrequests/Group.png"
+                  class="icon"
+                  alt="..."
+                />
+                <p>1 same saved house</p>
+              </div>
+              <div class="group d-flex">
+                <img
+                  src="images/friendrequests/group2.png"
+                  class="icon"
+                  alt="..."
+                />
+                <p>2 mutual friends</p>
+              </div>
+              <a href="#" class="select btn btn-primary">Add</a>
+            </div>
+          </div>
+
+          <div class="card col p-0 mr-4">
+            <img
+              src="images/friendrequests/Stephen Burton.png"
+              class="card-img-top img-fluid"
+              alt="..."
+            />
+            <div
+              class="
+                card-img-overlay
+                d-flex
+                justify-content-end
+                algin-items-start
+                p-1
+              "
+            >
+              <a class="p-0 text-dark" href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-x-circle-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"
+                  /></svg
+              ></a>
+            </div>
+
+            <div class="card-body text-center">
+              <h5 class="card-title">Stephen Burton</h5>
+              <p class="card-text">Actively looking for a new home</p>
+              <div class="group d-flex">
+                <img
+                  src="images/friendrequests/Group.png"
+                  class="icon"
+                  alt="..."
+                />
+                <p>1 same saved house</p>
+              </div>
+              <div class="group d-flex">
+                <img
+                  src="images/friendrequests/group2.png"
+                  class="icon"
+                  alt="..."
+                />
+                <p>2 mutual friends</p>
+              </div>
+              <a href="#" class="select btn btn-primary">Add</a>
+            </div>
+          </div>
+        </div>
+        <div class="mt-4">
+          <div class="row m-0 pl-3">
+            <div class="card col p-0 mr-4">
+              <img
+                src="images/friendrequests/Bethany Baab.png"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
+              <div
+                class="
+                  card-img-overlay
+                  d-flex
+                  justify-content-end
+                  algin-items-start
+                  p-1
+                "
+              >
+                <a class="p-0 text-dark" href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-x-circle-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"
+                    /></svg
+                ></a>
+              </div>
+
+              <div class="card-body text-center">
+                <h5 class="card-title">Bethany Baab</h5>
+                <p class="card-text">Actively looking for a new home</p>
+                <div class="group d-flex">
+                  <img
+                    src="images/friendrequests/Group.png"
+                    class="icon"
+                    alt="..."
+                  />
+                  <p>1 same saved house</p>
+                </div>
+                <div class="group d-flex">
+                  <img
+                    src="images/friendrequests/group2.png"
+                    class="icon"
+                    alt="..."
+                  />
+                  <p>2 mutual friends</p>
+                </div>
+                <a href="#" class="select btn btn-primary">Add</a>
+              </div>
+            </div>
+
+            <div class="card col p-0 mr-4">
+              <img
+                src="images/friendrequests/Charmaine Bacci.png"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
+              <div
+                class="
+                  card-img-overlay
+                  d-flex
+                  justify-content-end
+                  algin-items-start
+                  p-1
+                "
+              >
+                <a class="p-0 text-dark" href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-x-circle-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"
+                    /></svg
+                ></a>
+              </div>
+
+              <div class="card-body text-center">
+                <h5 class="card-title">Charmaine Bacci</h5>
+                <p class="card-text">Actively looking for a new home</p>
+                <div class="group d-flex">
+                  <img
+                    src="images/friendrequests/Group.png"
+                    class="icon"
+                    alt="..."
+                  />
+                  <p>1 same saved house</p>
+                </div>
+                <div class="group d-flex">
+                  <img
+                    src="images/friendrequests/group2.png"
+                    class="icon"
+                    alt="..."
+                  />
+                  <p>2 mutual friends</p>
+                </div>
+                <a href="#" class="select btn btn-primary">Add</a>
+              </div>
+            </div>
+            <div class="card col p-0 mr-4">
+              <img
+                src="images/friendrequests/Felicity Price.png"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
+              <div
+                class="
+                  card-img-overlay
+                  d-flex
+                  justify-content-end
+                  algin-items-start
+                  p-1
+                "
+              >
+                <a class="p-0 text-dark" href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-x-circle-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"
+                    /></svg
+                ></a>
+              </div>
+
+              <div class="card-body text-center">
+                <h5 class="card-title">Felicity Price</h5>
+                <p class="card-text">Actively looking for a new home</p>
+                <div class="group d-flex">
+                  <img
+                    src="images/friendrequests/Group.png"
+                    class="icon"
+                    alt="..."
+                  />
+                  <p>1 same saved house</p>
+                </div>
+                <div class="group d-flex">
+                  <img
+                    src="images/friendrequests/group2.png"
+                    class="icon"
+                    alt="..."
+                  />
+                  <p>2 mutual friends</p>
+                </div>
+                <a href="#" class="select btn btn-primary">Add</a>
+              </div>
+            </div>
+            <div class="card col p-0 mr-4">
+              <img
+                src="images/friendrequests/Elvina Sanchez.png"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
+              <div
+                class="
+                  card-img-overlay
+                  d-flex
+                  justify-content-end
+                  algin-items-start
+                  p-1
+                "
+              >
+                <a class="p-0 text-dark" href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-x-circle-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"
+                    /></svg
+                ></a>
+              </div>
+
+              <div class="card-body text-center">
+                <h5 class="card-title">Elvina Sanchez</h5>
+                <p class="card-text">Actively looking for a new home</p>
+                <div class="group d-flex">
+                  <img
+                    src="images/friendrequests/Group.png"
+                    class="icon"
+                    alt="..."
+                  />
+                  <p>1 same saved house</p>
+                </div>
+                <div class="group d-flex">
+                  <img
+                    src="images/friendrequests/group2.png"
+                    class="icon"
+                    alt="..."
+                  />
+                  <p>2 mutual friends</p>
+                </div>
+                <a href="#" class="select btn btn-primary">Add</a>
+              </div>
+            </div>
+            <div class="card col p-0 mr-4">
+              <img
+                src="images/friendrequests/Georgia Hall.png"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
+              <div
+                class="
+                  card-img-overlay
+                  d-flex
+                  justify-content-end
+                  algin-items-start
+                  p-1
+                "
+              >
+                <a class="p-0 text-dark" href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-x-circle-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"
+                    /></svg
+                ></a>
+              </div>
+
+              <div class="card-body text-center">
+                <h5 class="card-title">Georgia Hall</h5>
+                <p class="card-text">Actively looking for a new home</p>
+                <div class="group d-flex">
+                  <img
+                    src="images/friendrequests/Group.png"
+                    class="icon"
+                    alt="..."
+                  />
+                  <p>1 same saved house</p>
+                </div>
+                <div class="group d-flex">
+                  <img
+                    src="images/friendrequests/group2.png"
+                    class="icon"
+                    alt="..."
+                  />
+                  <p>2 mutual friends</p>
+                </div>
+                <a href="#" class="select btn btn-primary">Add</a>
+              </div>
+            </div>
+          </div>
+          <!--Friends you might want to know end-->
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+`

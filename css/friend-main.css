@@ -1,0 +1,59 @@
+.row{
+    padding: 0px;
+    margin: 0px;
+}
+.f-active{
+    font-weight: 600;
+}
+
+.f16{
+    font-size:16px;
+}
+.f14{
+    font-size:14px;
+}
+.ful-active{
+    background:#EFF3F8;
+    padding:20px;
+    
+
+}
+.f-pcolor{
+    color: #3154f5 !important;
+}
+.f400{
+    font-weight: 400;
+}
+.side_li_active{
+    /* padding: auto!important; */
+    /* margin: 10px; */
+}
+.card{
+    border: none !important;
+}
+.carousel-indicators{
+display:none;
+}
+.form-control:focus{
+    background-color: #fff;
+    border-color: #fafafa;
+    outline: 0;
+    box-shadow: none!important;
+}
+.form-control2{
+    border-color: none!important;
+}
+
+.form-control2:focus{
+    background-color: #eff3f8;
+    border-color: none!important;
+    outline: 0;
+    box-shadow: none!important;
+    border-radius: 6px 0px 0px 6px;
+}
+.br-6{
+    border-radius: 6px;
+}
+.bg-greys{
+    background: #EFF3F8;
+}

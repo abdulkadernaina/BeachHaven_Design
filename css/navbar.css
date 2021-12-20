@@ -1,0 +1,82 @@
+body {
+  background-color: #fafcfe;
+}
+.top-section {
+  background-color: white;
+}
+.logo-img {
+  max-width: 208px;
+  max-height: 70.55px;
+}
+.logo_link:hover{
+    text-decoration: none;
+}
+.top-navtxt {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #080e2d;
+}
+
+.profile-img {
+  max-width: 48px;
+  min-height: 48px;
+  margin: 5px;
+}
+
+.sidenav-txt {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4d4e51;
+  text-align: center;
+}
+img.nav-logo:hover {
+  color: #3154f5 !important;
+}
+a.side-nav {
+  text-decoration: none;
+  color: #4D4E51;
+  line-height: 1.5em;
+}
+a.side-nav:hover {
+  color: #3154f5;
+}
+ul {
+  list-style: none;
+}
+.side_li{
+  display: flex;
+  justify-content: center;
+  padding: 0.6rem 3rem;
+  margin: 0rem 0.5rem;
+}
+.side_li:hover{
+  background-color: #EFF3F8;
+  border-radius: 1rem;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+
+.nav-column{
+  border-right: solid 1px;
+  border-color: #DAE0FF;
+  width: 8em;
+  background: #FFFFFF;
+
+}
+
+.nav-logo{
+  margin-bottom: 0.5rem;
+}
+.bi{
+  font-size: 2rem;
+}
+

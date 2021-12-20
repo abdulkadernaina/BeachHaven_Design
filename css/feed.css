@@ -1,0 +1,329 @@
+* {
+  border: 0;
+  margin: 0;
+}
+body {
+  background-color: #fafcfe;
+}
+.top-section {
+  background-color: white;
+  box-shadow: 7px 0px 1px 1px #ccc;
+}
+.freind-logo-img {
+  max-width: 208px;
+  /* min-height: 70.55px; */
+}
+.top-navtxt {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #080e2d;
+}
+.right-nav {
+  margin-right: auto !important;
+}
+.nav-column {
+  min-height: 90vh !important;
+  border-right: solid 1px;
+  border-color: #dae0ff;
+  width: 8em;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-img {
+  max-width: 48px;
+  min-height: 48px;
+  margin: 5px;
+}
+.end-cards {
+  max-width: 371px;
+  min-height: 115;
+  border-radius: 12px;
+  margin: 1rem;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.08);
+}
+.card-contents {
+  display: flex;
+}
+.end-profile {
+  max-width: 36px;
+  min-height: 36px;
+}
+.end-profile1 {
+  max-width: 48px;
+  min-height: 48px;
+}
+.feed-card {
+  max-width: 654px;
+  /* min-height: 365px; */
+  background-color: #fafcfe;
+  border-radius: 12px;
+  margin-left: 71px;
+  margin-bottom: 1rem;
+  border-bottom: 6px;
+  box-shadow: 0 10px 10px -8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
+}
+.feed-card .card {
+  width: 654px;
+}
+
+.sidenav-txt {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4d4e51;
+  text-align: center;
+}
+img.nav-logo:hover {
+  color: #3154f5 !important;
+}
+a.side-nav {
+  text-decoration: none;
+  color: #4d4e51;
+  line-height: 1.5em;
+}
+a.side-nav:hover {
+  color: #3154f5;
+  font-weight: 600;
+}
+ul {
+  list-style: none;
+}
+li {
+  padding: 1rem;
+}
+
+.card-bttn {
+  max-width: 92px;
+  height: 31px;
+  border-radius: 4px;
+  padding: 3px 16px;
+  background-color: #3154f5;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.head-txt {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 150%;
+  color: #080e2d;
+}
+.card-protxt {
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #080e2d;
+}
+.mute-txt {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  color: #b9b9be;
+}
+.para-txt {
+  font-family: "Karla", sans-serif;
+  padding-bottom: 10px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #080e2d;
+}
+
+.nav-bttn {
+  width: 160px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #3154f5;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+a.view-link {
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3154f5;
+  text-decoration: none;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.right-cardtxt {
+  font-family: "Karla", sans-serif;
+
+  font-size: 14px;
+  line-height: 19px;
+  color: #080e2d;
+}
+.end-cardtxt {
+  padding-left: 23px;
+}
+.left-hrs {
+  font-size: 14px;
+  color: #a6a7ac;
+}
+.right-cardpro {
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #080e2d;
+}
+.top-cardpro {
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #080e2d;
+}
+.bot-head {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  color: #080e2d;
+}
+.bot-price {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #1c3360;
+}
+.bot-small {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  padding: 5px;
+  color: #080e2d;
+}
+.bot-txt {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #080e2d;
+}
+.bot-btm {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #080e2d;
+}
+.popular-seg {
+  max-width: 356px;
+  height: 136px;
+  padding: 0px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+  margin-left: 20px !important;
+  border-radius: 8px;
+  margin-bottom: 20px !important;
+}
+.left-nav {
+  padding-left: 0px;
+}
+
+.head-txt1 {
+  text-align: left !important;
+}
+.card-list {
+  padding-left: 0;
+}
+.card-list li {
+  display: block;
+  float: left;
+  padding: 0;
+}
+.card-list ul {
+  display: inline-block;
+  padding: 0;
+}
+.right-botcard {
+  padding: 5px;
+  padding-left: 2px;
+}
+.right-cardimg img {
+  width: 154px;
+  margin-right: 8px;
+}
+.carousel-item img {
+  max-width: 100%;
+  min-height: 100%;
+}
+.card-img-bottom {
+  max-width: 100%;
+}
+.logo_link:hover {
+  text-decoration: none;
+}
+.side_li {
+  display: flex;
+  justify-content: center;
+  padding: 0.6rem 3rem;
+  margin: 0rem 0.5rem;
+  max-width: 130px;
+  padding-bottom: 30px;
+}
+.side_li:hover {
+  background-color: #eff3f8;
+  border-radius: 1rem;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+.nav-logo {
+  margin-bottom: 0.5rem;
+}
+.bi {
+  font-size: 22px;
+}
+.feed-top-sgm {
+  padding-top: 20px !important;
+}
+.friends-mid-seg {
+  padding-left: 72px;
+  padding-bottom: 15px;
+}
+.tp-card-sgm {
+  border-radius: 12px;
+}
+.sugg-aggn-all {
+  padding-left: 0px !important;
+}
+.suggpan_pnl {
+  padding-top: 20px;
+}
+.sugg-viewal {
+  margin-left: -21px;
+}
+.poplr-txt {
+  padding-left: 19px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
